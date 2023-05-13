@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230511 15:48:02.627" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="d:\robocorpPython\robotpythonbot\tasks.robot">
+<test id="s1-t1" name="run python robot" line="8">
+<kw name="Run Process" library="Process">
+<arg>python</arg>
+<arg>task2.py</arg>
+<doc>Runs a process and waits for it to complete.</doc>
+<msg timestamp="20230511 15:48:02.775" level="INFO">Starting process:
+python task2.py</msg>
+<msg timestamp="20230511 15:48:02.789" level="INFO">Waiting for process to complete.</msg>
+<msg timestamp="20230511 15:48:05.645" level="INFO">Process completed.</msg>
+<status status="PASS" starttime="20230511 15:48:02.771" endtime="20230511 15:48:05.646"/>
+</kw>
+<status status="PASS" starttime="20230511 15:48:02.768" endtime="20230511 15:48:05.649"/>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="PASS" starttime="20230511 15:48:02.660" endtime="20230511 15:48:05.653"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
